@@ -11,6 +11,6 @@ I am a computational neuroscientist and AI researcher at the [Montreal Neurologi
 
 My PhD thesis, supervised by [Prof. Sylvain Baillet](https://www.neurospeed-bailletlab.org/), investigates the spatiotemporal structure of human spontaneous traveling waves in the brain. I combine advanced neuroimaging techniques (MEG, EEG, fMRI) with computational modeling and deep learning to uncover fundamental principles of brain dynamics and their alterations in psychiatric disorders.
 
-Previously, I earned my Master's degree in Biomedical Engineering at the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) under the supervision of [Prof. Dezhong Yao](https://scholar.google.com/citations?user=DGJ-XeUAAAAJ), and my Bachelor's in Automation at [HuaQiao University](https://eng.hqu.edu.cn/).
+Previously, I earned my Master's degree in Biomedical Engineering at the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) under the supervision of [Prof. Dezhong Yao](https://neuro.uestc.edu.cn/bci/member/yao/yao.html), and my Bachelor's in Automation at [HuaQiao University](https://eng.hqu.edu.cn/).
 
 **Research Interests:** Computational Neuroscience · Computational Psychiatry · Neuro-AI · Complex Systems · Brain-Computer Interfaces
