@@ -8,10 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-#title                    : "Your Name / Site Title"
-#title_separator          : "-"
-name                     : &name "Xiaobo Liu"
-description              : &description "Neuron-AI researcher: Compuational Neuroscience and Artificial Intelligence"
+title                    : "Xiaobo Liu"
+description              : &description "Computational Neuroscience, Neuro-AI, Computational Psychiatry, Complex Systems, BCI"
 url                      : https://laoma29.github.io/academicpages_for_XiaoboLiu.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -24,11 +22,11 @@ author:
   avatar           : "profile.png"
   name             : "Xiaobo Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Neuron-AI researcher: Compuational Neuroscience and Artificial Intelligence"
-  location         : "Montreal,Canada"
-  employer         : "McGill University"
+  bio              : "PhD in Neuroscience @ McGill University. Computational Neuroscience, Neuro-AI, Computational Psychiatry."
+  location         : "Montreal, Canada"
+  employer         : "Montreal Neurological Institute, McGill University"
   uri              : # URL
-  email            : "xiaoboliumcgill@gmail.com" 
+  email            : "xiaobo.liu@mail.mcgill.ca" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -36,7 +34,7 @@ author:
  # impactstory      : # URL
  #  orcid            : "http://orcid.org/yourorcidurl"
  #  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : ""
   researchgate     : "https://www.researchgate.net/profile/Xiaobo-Liu-15/research"
 #   scopus           : # URL
 
