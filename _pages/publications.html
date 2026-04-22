@@ -5,32 +5,117 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+.selected-pubs .pub-category {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 1.2rem 0 0.6rem;
+  border: 0;
+  padding: 0;
+}
+.selected-pubs .pub-item {
+  margin: 0 0 0.8rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.selected-pubs .pub-title {
+  font-weight: 700;
+}
+.selected-pubs .pub-authors {
+  font-size: 0.95rem;
+  color: #555;
+}
+.selected-pubs .pub-venue {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #222;
+}
+.selected-pubs .tag.under-review {
+  font-size: 0.75rem;
+  background: #fff3e0;
+  color: #a44d00;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+</style>
 
-{% include base_path %}
+<div class="selected-pubs">
+  <p>You can also find my articles on <a href="https://scholar.google.com/citations?user=pCRf05gAAAAJ&hl=en&oi=ao">Google Scholar</a>. (<strong>*</strong> corresponding author; <strong>#</strong> co-first author)</p>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <div class="pub-category">2026</div>
+  <div class="pub-item">
+    <div class="pub-title">Association between dietary live microbial intake and all-cause and cause-specific mortality in obese adults: A prospective cohort study</div>
+    <div class="pub-authors">Yaqiong Zhuang, <strong>Xiaobo Liu</strong>, Yingxuan Huang, Chanchan Lin, Yingyi Li et al.</div>
+    <div class="pub-venue">Science Progress</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Comorbidity-Aware Transfer Learning for Neuro-developmental Disorder Diagnosis</div>
+    <div class="pub-authors">Xin Wen, Shijie Guo, Li Dong, Wenbo Ning, Yanrong Hao, Songhua Liu et al.</div>
+    <div class="pub-venue">Neural Networks</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">MAMGL: A memory-augmented meta-graph learning framework for adolescent major depression disorder diagnosis</div>
+    <div class="pub-authors"><strong>Xiaobo Liu</strong>, Xin Wen, Liang He, Xiaoqiang Liu, Yujun Gao, Xianwei Guo</div>
+    <div class="pub-venue">BioRxiv</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Hierarchical Flows of Human Cortical Activity</div>
+    <div class="pub-authors"><strong>Xiaobo Liu</strong>, Alex I. Wiesman, Sylvain Baillet</div>
+    <div class="pub-venue">BioRxiv</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Convergent cortical temporal axis: common cortical oscillatory modes</div>
+    <div class="pub-authors"><strong>Xiaobo Liu</strong>, Sanwang Wang, Xinyu Wu, Siyu Long, Liang He, Lang Liu, Ruifang Cui, Guoshi Yang</div>
+    <div class="pub-venue">BioRxiv</div>
+  </div>
 
+  <div class="pub-category">2025</div>
+  <div class="pub-item">
+    <div class="pub-title">Functional Reorganization across Four Episodes in Bipolar Disorder</div>
+    <div class="pub-authors">Xiaobo Liu et al.</div>
+    <div class="pub-venue">BMC Medicine</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Tracking causal pathways in TMS-evoked brain responses</div>
+    <div class="pub-authors">Jinming Xiao, Qing Yin, Lei Li, <strong>Xiaobo Liu</strong> et al.</div>
+    <div class="pub-venue">PLOS Computational Biology</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">A Neural Network for High-Precise and Well-Interpretable Electrocardiogram Classification</div>
+    <div class="pub-authors">Xiaoqiang Liu, <strong>Xiaobo Liu*</strong> et al.</div>
+    <div class="pub-venue">Engineering Applications of Artificial Intelligence</div>
+  </div>
 
+  <div class="pub-category">2024</div>
+  <div class="pub-item">
+    <div class="pub-title">A neurofunctional signature of subjective disgust generalizes to oral distaste and socio-moral contexts</div>
+    <div class="pub-authors">Xianyang Gan, Feng Zhou, Ting Xu, <strong>Xiaobo Liu</strong> et al.</div>
+    <div class="pub-venue">Nature Human Behaviour</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Global-Local Brain Network based on Functional Connectivity for Individualized Prediction</div>
+    <div class="pub-authors">Yuanyuan Guo, Xin Wen, Yi Lei, <strong>Xiaobo Liu</strong> et al.</div>
+    <div class="pub-venue">IEEE BIBM</div>
+  </div>
 
+  <div class="pub-category">Earlier Work</div>
+  <div class="pub-item">
+    <div class="pub-title">Neuroscience Information Toolbox: an open-source toolbox for EEG-fMRI multimodal fusion analysis</div>
+    <div class="pub-authors">Li Dong*, Cheng Luo*, <strong>Xiaobo Liu</strong> et al.</div>
+    <div class="pub-venue">Frontiers in Neuroinformatics, 2017</div>
+  </div>
+
+  <div class="pub-category">Under Review / Preprints</div>
+  <div class="pub-item">
+    <div class="pub-title">Spatiotemporal Cortical Flow in Human Spontaneous Brain Activity</div>
+    <div class="pub-authors"><strong>Xiaobo Liu</strong>, Sylvain Baillet*</div>
+    <div class="pub-venue">Neuron <span class="tag under-review">Under Review</span></div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">Precise temporal topography mapping analysis of population spontaneous dynamics</div>
+    <div class="pub-authors"><strong>Xiaobo Liu</strong>, Sylvain Baillet*</div>
+    <div class="pub-venue">Nature Communications <span class="tag under-review">Under Review</span></div>
+  </div>
+</div>

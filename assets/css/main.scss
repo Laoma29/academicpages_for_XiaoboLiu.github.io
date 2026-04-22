@@ -186,3 +186,15 @@ a {
   padding-left: 1em;
   margin: 0.5em 0;
 }
+
+/* Make top navigation cleaner (remove boxed strip look) */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background: #ffffff;
+}
+
+.greedy-nav {
+  border: 0;
+  box-shadow: none;
+}
