@@ -2,7 +2,7 @@
 permalink: /
 title: "Xiaobo Liu - Academic Page"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -13,4 +13,26 @@ My PhD thesis, supervised by [Prof. Sylvain Baillet](https://www.neurospeed-bail
 
 Previously, I earned my Master's degree in Biomedical Engineering at the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) under the supervision of [Prof. Dezhong Yao](https://neuro.uestc.edu.cn/bci/member/yao/yao.html), and my Bachelor's in Automation at [HuaQiao University](https://eng.hqu.edu.cn/).
 
-**Research Interests:** Computational Neuroscience · Computational Psychiatry · Neuro-AI · Complex Systems · Brain-Computer Interfaces
+**Research Interests:** Computational Neuroscience | Computational Psychiatry | Neuro-AI | Complex Systems | Brain-Computer Interfaces
+
+## Visitor Map
+
+<div style="margin-top: 1rem;">
+  <a href="https://clustrmaps.com/site/1c9t9" title="ClustrMaps Visitor Map">
+    <img
+      src="https://clustrmaps.com/map_v2.png?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA&cl=ffffff"
+      alt="ClustrMaps visitor map"
+      loading="lazy"
+      style="width: 100%; max-width: 480px; height: auto; border: 0;" />
+  </a>
+</div>
+
+<p>
+  <a href="https://clustrmaps.com/site/1c9t9" target="_blank" rel="noopener">
+    Open full ClustrMaps analytics
+  </a>
+  <br />
+  <a href="https://clustrmaps.com/profile/1c9t9/widget/customize" target="_blank" rel="noopener">
+    Customize ClustrMaps widget
+  </a>
+</p>
