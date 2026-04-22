@@ -15,18 +15,3 @@ Previously, I earned my Master's degree in Biomedical Engineering at the [Univer
 
 **Research Interests:** Computational Neuroscience | Computational Psychiatry | Neuro-AI | Complex Systems | Brain-Computer Interfaces
 
-## Visitor Map
-
-<div style="margin-top: 1rem;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=biz5HHmPezA5N3xRwJx_-01GAYDraksDZDizgA9kAWk"></script>
-</div>
-
-<p>
-  <a href="https://clustrmaps.com/site/1c9t9" target="_blank" rel="noopener">
-    Open full ClustrMaps analytics
-  </a>
-  <br />
-  <a href="https://clustrmaps.com/profile/1c9t9/widget/customize" target="_blank" rel="noopener">
-    Customize ClustrMaps widget
-  </a>
-</p>
