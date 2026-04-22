@@ -18,7 +18,9 @@ Previously, I earned my Master's degree in Biomedical Engineering at the [Univer
 ## Visitor Map
 
 <div style="margin-top: 1rem;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/globe.js?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA"></script>
+  <a href="https://clustrmaps.com/site/1c9t9" title="ClustrMaps Visitor Map" target="_blank" rel="noopener">
+    <img src="https://clustrmaps.com/map_v2.png?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA&cl=ffffff" alt="ClustrMaps visitor map" loading="lazy" style="width: 100%; max-width: 480px; height: auto; border: 0;" />
+  </a>
 </div>
 
 <p>
