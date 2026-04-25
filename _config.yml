@@ -19,7 +19,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar-new.jpg"
   name             : "Xiaobo Liu"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Neuroscience @ McGill University. Computational Neuroscience, Neuro-AI, Computational Psychiatry."
