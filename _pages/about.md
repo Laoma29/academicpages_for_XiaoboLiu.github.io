@@ -5,6 +5,9 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+header:
+  overlay_image: /images/background-new.jpg
+  overlay_filter: 0.5
 ---
 
 I am a computational neuroscientist and AI researcher at the [Montreal Neurological Institute](https://www.mcgill.ca/neuro/), McGill University. My research focuses on understanding the spatiotemporal dynamics of human brain activity, with applications in computational psychiatry, neuro-AI, and brain-computer interfaces.

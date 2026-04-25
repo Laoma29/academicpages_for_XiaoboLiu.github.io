@@ -198,3 +198,33 @@ a {
   border: 0;
   box-shadow: none;
 }
+
+/* ==========================================================================
+   Hero Section Background Image Optimization
+   ========================================================================== */
+
+/* Optimize background image position for city landscape */
+.page__hero--overlay {
+  background-position: center 30%; /* Focus on upper part (skyline) */
+  
+  /* Ensure sufficient padding for content */
+  padding: 4em 0;
+  
+  @media (min-width: 768px) {
+    padding: 5em 0;
+  }
+  
+  @media (min-width: 1200px) {
+    padding: 6em 0;
+  }
+}
+
+/* Enhance text readability on hero overlay */
+.page__hero--overlay .page__title {
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.page__hero--overlay .page__lead {
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
