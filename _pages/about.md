@@ -18,6 +18,6 @@ My broader research framework connects three interdisciplinary areas: computatio
 
 I am currently collaborating with [Prof. Ben Fulcher](https://www.benfulcher.com/), [Prof. James M. Shine](https://www.jamesmshine.com/), and [Prof. Joseph Lizier](https://lizier.me/joseph/) on projects that integrate neurophysics, complex systems, information dynamics, and computational neuroscience. This work extends my previous studies of cortical traveling waves, MEG/fMRI-based brain dynamics, cortical gradients, and brain disorders by applying advanced time-series analysis, information-theoretic measures, and complex-network modeling to characterize how large-scale neural activity supports cognition, arousal, and brain health.
 
-Previously, I received my Master's degree in Biomedical Engineering from the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) under the supervision of [Prof. Dezhong Yao](https://neuro.uestc.edu.cn/bci/member/yao/yao.html), and my Bachelor's degree in Automation from [HuaQiao University](https://eng.hqu.edu.cn/).
+Previously, I received my Master's degree in Biomedical Engineering from the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) under the supervision of [Prof. Dezhong Yao](https://scholar.google.com/citations?user=ClUoWqsAAAAJ&hl=en), and my Bachelor's degree in Automation from [HuaQiao University](https://eng.hqu.edu.cn/).
 
 **Research Interests:** Computational Neuroscience | Computational Psychiatry | Neuro-AI | Complex Systems | Brain-Computer Interfaces

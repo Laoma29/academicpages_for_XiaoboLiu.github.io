@@ -17,7 +17,7 @@ redirect_from:
   Thesis: Spatiotemporal structure of human spontaneous traveling waves | Supervisor: Prof. Sylvain Baillet
 
 - **MEng in Biomedical Engineering** — UESTC (2017–2020)  
-  Supervisor: [Prof. Dezhong Yao](https://neuro.uestc.edu.cn/bci/member/yao/yao.html)
+  Supervisor: [Prof. Dezhong Yao](https://scholar.google.com/citations?user=ClUoWqsAAAAJ&hl=en)
 
 - **BEng in Automation** — HuaQiao University (2013–2017)  
   Supervisor: Prof. Zhuoyun Nie
