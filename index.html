@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Xiaobo Liu - Academic Homepage</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+<link rel="icon" href="/academicpages_for_XiaoboLiu.github.io/images/favicon.ico">
 <style>
 /* ===== Reset & Base ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -13,31 +13,35 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 16px;
   line-height: 1.6;
-  color: #24292e;
-  background: #fff;
+  color: #263238;
+  background: #f6f8fb;
 }
-a { color: #0366d6; text-decoration: none; }
+a { color: #1f6feb; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* ===== Layout ===== */
-.container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+.container { max-width: 920px; margin: 0 auto; padding: 0 28px; }
 
 /* ===== Header / Hero ===== */
 .hero {
-  padding: 60px 0 40px;
-  border-bottom: 1px solid #e1e4e8;
+  padding: 72px 0 46px;
+  border-bottom: 1px solid #dbe3ef;
   text-align: center;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.98), rgba(247,250,253,0.95)),
+    url("/academicpages_for_XiaoboLiu.github.io/images/background-new.jpg") center/cover;
 }
 .hero h1 {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 8px;
-  color: #1a1a2e;
+  color: #14213d;
+  letter-spacing: 0;
 }
 .hero .subtitle {
   font-size: 18px;
-  color: #586069;
-  margin-bottom: 16px;
+  color: #425466;
+  margin-bottom: 14px;
 }
 .hero .links {
   display: flex;
@@ -49,28 +53,34 @@ a:hover { text-decoration: underline; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 14px;
-  border: 1px solid #d1d5da;
+  padding: 8px 14px;
+  border: 1px solid #cfd8e3;
   border-radius: 6px;
   font-size: 14px;
-  color: #586069;
+  color: #334155;
+  background: rgba(255,255,255,0.82);
   transition: all 0.2s;
 }
 .hero .links a:hover {
-  background: #f3f4f6;
-  border-color: #0366d6;
-  color: #0366d6;
+  background: #ffffff;
+  border-color: #1f6feb;
+  color: #1f6feb;
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 /* ===== Section ===== */
-.section { padding: 40px 0; border-bottom: 1px solid #e1e4e8; }
+.section {
+  padding: 44px 0;
+  border-bottom: 1px solid #dbe3ef;
+  background: #ffffff;
+}
 .section:last-child { border-bottom: none; }
 .section h2 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #1a1a2e;
+  color: #14213d;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -78,8 +88,47 @@ a:hover { text-decoration: underline; }
 .section h2 .emoji { font-size: 22px; }
 
 /* ===== Bio ===== */
-.bio p { margin-bottom: 12px; color: #333; }
-.bio strong { color: #24292e; }
+.bio {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.bio p { margin-bottom: 14px; color: #334155; }
+.bio strong { color: #14213d; }
+.intro-card {
+  padding: 22px 24px;
+  border: 1px solid #dbe3ef;
+  border-radius: 8px;
+  background: #fbfdff;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+}
+.intro-card p:last-child { margin-bottom: 0; }
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 26px;
+}
+.research-tags span {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef6ff;
+  color: #24527a;
+  font-size: 13px;
+  font-weight: 600;
+}
+.media-frame {
+  margin: 30px 0;
+  text-align: center;
+}
+.media-frame img,
+.media-frame video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
+}
 
 /* ===== Publications ===== */
 .pub-category {
@@ -168,14 +217,17 @@ a:hover { text-decoration: underline; }
 .footer {
   text-align: center;
   padding: 24px 0;
-  color: #586069;
+  color: #64748b;
   font-size: 13px;
+  background: #f6f8fb;
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   .hero h1 { font-size: 28px; }
   .hero .subtitle { font-size: 16px; }
+  .container { padding: 0 18px; }
+  .intro-card { padding: 18px; }
   .skills-grid { grid-template-columns: 1fr; }
   .section h2 { font-size: 20px; }
 }
@@ -187,19 +239,19 @@ a:hover { text-decoration: underline; }
 <div class="hero">
   <div class="container">
     <h1>Xiaobo Liu</h1>
-    <p class="subtitle">Computational Neuroscience · Neuro-AI · Computational Psychiatry · Complex Systems · BCI</p>
+    <p class="subtitle">Computational Neuroscience | Neuro-AI | Computational Psychiatry | Complex Systems | BCI</p>
     <p style="color:#586069; font-size:15px; margin-bottom: 16px;">
       PhD in Neuroscience @ <a href="https://www.mcgill.ca/neuro/">Montreal Neurological Institute</a>, McGill University
     </p>
     <div class="links">
-      <a href="mailto:xiaobo.liu@mail.mcgill.ca">✉️ Email</a>
-      <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=pCRf05gAAAAJ">🎓 Google Scholar</a>
-      <a href="https://www.researchgate.net/profile/Xiaobo-Liu-15">📊 ResearchGate</a>
-      <a href="https://github.com/Laoma29">💻 GitHub</a>
-      <a href="https://x.com/xiaoboliu29">𝕏 X</a>
-      <a href="/academicpages_for_XiaoboLiu.github.io/cv/">📄 CV</a>
-      <a href="/academicpages_for_XiaoboLiu.github.io/publications/">📚 All Publications</a>
-      <a href="/academicpages_for_XiaoboLiu.github.io/talks/">🎤 Talks</a>
+      <a href="mailto:xiaobo.liu@mail.mcgill.ca">Email</a>
+      <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=pCRf05gAAAAJ">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Xiaobo-Liu-15">ResearchGate</a>
+      <a href="https://github.com/Laoma29">GitHub</a>
+      <a href="https://x.com/xiaoboliu29">X</a>
+      <a href="/academicpages_for_XiaoboLiu.github.io/cv/">CV</a>
+      <a href="/academicpages_for_XiaoboLiu.github.io/publications/">All Publications</a>
+      <a href="/academicpages_for_XiaoboLiu.github.io/talks/">Talks</a>
     </div>
   </div>
 </div>
@@ -207,19 +259,27 @@ a:hover { text-decoration: underline; }
 <!-- About -->
 <div class="section">
   <div class="container">
-    <h2><span class="emoji">👋</span> About Me</h2>
+    <h2>About Me</h2>
     <div class="bio">
-      <p>I am a computational neuroscientist and AI researcher at the <a href="https://www.mcgill.ca/neuro/">Montreal Neurological Institute</a>, McGill University（Supervised by <a href="https://www.neurospeed-bailletlab.org/">Prof. Sylvain Baillet</a>）. My research focuses on understanding the <strong>spatiotemporal dynamics of human brain activity</strong>, with applications in computational psychiatry, neuro-AI, and brain-computer interfaces.</p>
-      <p>My PhD thesis investigates the <strong>spatiotemporal structure of human spontaneous traveling waves</strong> in the brain. I combine advanced neuroimaging techniques (MEG, EEG, fMRI) with computational modeling and deep learning to uncover fundamental principles of brain dynamics and their alterations in psychiatric disorders.</p>
-      <p>Previously, I earned my Master's degree in Biomedical Engineering at <a href="https://www.uestc.edu.cn/">UESTC</a> under <a href="https://neuro.uestc.edu.cn/bci/member/yao/yao.html">Prof. Dezhong Yao</a>, and my Bachelor's in Automation at <a href="https://eng.hqu.edu.cn/">HuaQiao University</a>.</p>
-      
-      <div style="margin: 32px 0; text-align: center;">
-        <img src="/academicpages_for_XiaoboLiu.github.io/images/research-framework.png" alt="Research Framework" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <div class="intro-card">
+        <p>I am a computational neuroscientist and AI researcher studying the <strong>spatiotemporal dynamics of human brain activity</strong>. My work integrates MEG, EEG, fMRI, computational modeling, and machine learning to understand large-scale brain dynamics and their links to psychiatric and neurodevelopmental disorders.</p>
+        <p>I completed my PhD at the <a href="https://www.mcgill.ca/neuro/">Montreal Neurological Institute</a>, McGill University, supervised by <a href="https://www.neurospeed-bailletlab.org/">Prof. Sylvain Baillet</a>. I am now a postdoctoral researcher working across computational neuroscience, neurophysics, information dynamics, and complex systems with <a href="http://www.benfulcher.com/">Prof. Ben Fulcher</a>, <a href="https://macshine.github.io/">Prof. James M. Shine</a>, and <a href="http://lizier.me/joseph/">Prof. Joseph Lizier</a>.</p>
+        <p>Previously, I received my Master's degree in Biomedical Engineering from <a href="https://www.uestc.edu.cn/">UESTC</a> under <a href="https://neuro.uestc.edu.cn/bci/member/yao/yao.html">Prof. Dezhong Yao</a>, and my Bachelor's degree in Automation from <a href="https://eng.hqu.edu.cn/">HuaQiao University</a>.</p>
+      </div>
+
+      <div class="research-tags" aria-label="Research interests">
+        <span>Brain Dynamics</span>
+        <span>Computational Psychiatry</span>
+        <span>Neuro-AI</span>
+        <span>Complex Systems</span>
+        <span>Brain-Computer Interfaces</span>
       </div>
       
-      <p style="margin-top: 16px;">My research framework encompasses three core interdisciplinary domains: <strong>computational neuroscience</strong>, <strong>computational psychiatry</strong>, and <strong>neuro-AI</strong>. By integrating the biomedical foundations of brain science and mental health with computational techniques in modeling, theory, and tool design, I am dedicated to reverse-engineering brain mechanisms to build intelligent systems, exploring neural circuit function modeling, computational diagnosis and treatment of psychiatric disorders, and brain-inspired AI architecture design.</p>
-
-      <p style="margin-top: 16px;">I am now a postdoc researcher, collaborating with <a href="http://www.benfulcher.com/">Prof. Ben Fulcher</a>, <a href="https://macshine.github.io/">Prof. James M. Shine</a>, and <a href="http://lizier.me/joseph/">Prof. Joseph Lizier</a> on interdisciplinary projects integrating neurophysics, complex systems, information dynamics, and computational neuroscience. This collaboration extends my previous work on spatiotemporal cortical waves, MEG/fMRI-based brain dynamics, cortical gradients, and psychiatric/neurodevelopmental disorders by introducing advanced time-series analysis, information-theoretic measures, and complex-network modeling to characterize how large-scale neural activity supports cognition, arousal, and brain health. The work builds on my doctoral research on spontaneous human brain activity and my broader experience in multimodal neuroimaging, machine learning, and computational modeling.</p>
+      <div class="media-frame">
+        <img src="/academicpages_for_XiaoboLiu.github.io/images/research-framework.png" alt="Research Framework">
+      </div>
+      
+      <p>My broader research framework connects <strong>computational neuroscience</strong>, <strong>computational psychiatry</strong>, and <strong>neuro-AI</strong>: reverse-engineering neural mechanisms, modeling brain disorders, and building interpretable computational tools inspired by brain dynamics.</p>
       
       <p style="margin-top: 16px;"><strong>🏆 Representative works:</strong></p>
       <p style="margin-top: 8px;">1. <a href="https://www.biorxiv.org/content/10.64898/2026.03.19.712872v1" target="_blank">Hierarchical Flows of Human Cortical Activity</a></p>
