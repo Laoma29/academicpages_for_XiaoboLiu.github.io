@@ -20,8 +20,29 @@ author_profile: true
   border: 0;
   background: transparent;
 }
+.selected-pubs .pub-item.with-cover {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: start;
+}
+.selected-pubs .pub-cover {
+  display: block;
+  width: 112px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid #e5e5e5;
+}
 .selected-pubs .pub-title {
   font-weight: 700;
+}
+.selected-pubs .pub-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.selected-pubs .pub-title a:hover {
+  color: #1565c0;
+  text-decoration: underline;
 }
 .selected-pubs .pub-authors {
   font-size: 0.95rem;
@@ -38,6 +59,14 @@ author_profile: true
   color: #a44d00;
   padding: 2px 8px;
   border-radius: 10px;
+}
+@media (max-width: 480px) {
+  .selected-pubs .pub-item.with-cover {
+    grid-template-columns: 88px minmax(0, 1fr);
+  }
+  .selected-pubs .pub-cover {
+    width: 88px;
+  }
 }
 </style>
 
@@ -60,10 +89,13 @@ author_profile: true
     <div class="pub-authors"><strong>Xiaobo Liu</strong>, Xin Wen, Liang He, Xiaoqiang Liu, Yujun Gao, Xianwei Guo</div>
     <div class="pub-venue">BioRxiv</div>
   </div>
-  <div class="pub-item">
-    <div class="pub-title">Hierarchical Flows of Human Cortical Activity</div>
-    <div class="pub-authors"><strong>Xiaobo Liu</strong>, Alex I. Wiesman, Sylvain Baillet</div>
-    <div class="pub-venue">BioRxiv</div>
+  <div class="pub-item with-cover">
+    <a href="https://www.biorxiv.org/content/10.64898/2026.08.29.747943v1"><img class="pub-cover" src="/images/cortical-hierarchy-neural-propagation.jpg" alt="Cortical Hierarchy Dynamically Organizes Large-Scale Neural Propagation cover"></a>
+    <div>
+      <div class="pub-title"><a href="https://www.biorxiv.org/content/10.64898/2026.08.29.747943v1">Cortical Hierarchy Dynamically Organizes Large-Scale Neural Propagation</a></div>
+      <div class="pub-authors"><strong>Xiaobo Liu</strong>, Baiyan Wan, Wenfeng Liu, Rong Lu, Sanwang Wang, Xinyu Zhang, Li Dong, Tao Fan</div>
+      <div class="pub-venue">BioRxiv, 2026</div>
+    </div>
   </div>
   <div class="pub-item">
     <div class="pub-title">Convergent cortical temporal axis: common cortical oscillatory modes</div>

@@ -1,12 +1,18 @@
-﻿---
-title: "Hierarchical Flows of Human Cortical Activity"
+---
+title: "Cortical Hierarchy Dynamically Organizes Large-Scale Neural Propagation"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-biorxiv-cortical-flow
-excerpt: 'Hierarchical Flows of Human Cortical Activity'
-date: 2026-01-01
+excerpt: 'Cortical Hierarchy Dynamically Organizes Large-Scale Neural Propagation'
+date: 2026-09-03
 venue: 'BioRxiv'
-citation: 'Xiaobo Liu, Alex I. Wiesman, Sylvain Baillet (2026). &quot;Hierarchical Flows of Human Cortical Activity.&quot; <i>BioRxiv</i>.'
+paperurl: 'https://www.biorxiv.org/content/10.64898/2026.08.29.747943v1'
+doi: '10.64898/2026.08.29.747943'
+citation: 'Xiaobo Liu, Baiyan Wan, Wenfeng Liu, Rong Lu, Sanwang Wang, Xinyu Zhang, Li Dong, Tao Fan (2026). &quot;Cortical Hierarchy Dynamically Organizes Large-Scale Neural Propagation.&quot; <i>BioRxiv</i>. doi:10.64898/2026.08.29.747943.'
+header:
+  teaser: cortical-hierarchy-neural-propagation.jpg
 ---
 
-More info coming soon.
+![Cortical hierarchy neural propagation cover](/images/cortical-hierarchy-neural-propagation.jpg)
+
+[View the preprint on bioRxiv](https://www.biorxiv.org/content/10.64898/2026.08.29.747943v1).
