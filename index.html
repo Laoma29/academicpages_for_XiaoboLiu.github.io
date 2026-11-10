@@ -44,10 +44,10 @@ a:hover { text-decoration: underline; }
   margin-bottom: 14px;
 }
 .hero .links {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
   justify-content: center;
   gap: 16px;
-  flex-wrap: wrap;
 }
 .hero .links a {
   display: inline-flex;
@@ -241,6 +241,11 @@ a:hover { text-decoration: underline; }
   .intro-card { padding: 18px; }
   .skills-grid { grid-template-columns: 1fr; }
   .section h2 { font-size: 20px; }
+  .hero .links { grid-template-columns: repeat(2, max-content); gap: 10px; }
+}
+
+@media (min-width: 601px) and (max-width: 860px) {
+  .hero .links { grid-template-columns: repeat(3, max-content); }
 }
 </style>
 </head>
@@ -263,6 +268,7 @@ a:hover { text-decoration: underline; }
       <a href="/academicpages_for_XiaoboLiu.github.io/cv/">CV</a>
       <a href="/academicpages_for_XiaoboLiu.github.io/publications/">All Publications</a>
       <a href="/academicpages_for_XiaoboLiu.github.io/talks/">Talks</a>
+      <a href="https://neuro-tool-works.pages.dev/#profile" target="_blank" rel="noopener">🧰 Tool</a>
     </div>
   </div>
 </div>
